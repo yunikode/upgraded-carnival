@@ -2,3 +2,23 @@ body {
   margin: 30px;
   background-color: whitesmoke;
 }
+
+#album_items {
+  display: none;
+}
+
+#album_items .ui.cards {
+  margin: 10px;
+}
+
+.ui.cards > .card {
+  width: 210px;
+}
+
+.ui.cards > .card > .content > .header:not(.ui) {
+  font-size: 1.1em;
+}
+
+.ui.cards > .card .meta, .ui.card .meta {
+  font-size: 0.8em;
+}
